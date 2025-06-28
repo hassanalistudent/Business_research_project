@@ -1,16 +1,17 @@
 import pandas as pd
 import statsmodels.api as sm
 
-# Assuming df is your DataFrame and already contains the interaction terms
-# Example columns: 'Satisfaction', 'Food_Year_interaction', 'Hygiene_Year_interaction'
+# Load your Excel data
+df = pd.read_excel("Cleaned Data for heatmap.xlsx")
 
-# Define the dependent and independent variables
+# Define dependent and independent variables
 X = df[['Food_Year_interaction', 'Hygiene_Year_interaction']]
-X = sm.add_constant(X)  # Adds the intercept term
-y = df['Satisfaction']
+X = sm.add_constant(X)  # Adds an intercept term
+y = df['Satisfection']  # Assuming this is the satisfaction column
 
-# Fit the OLS model
+# Fit the OLS regression model
 model = sm.OLS(y, X).fit()
 
-# Print the summary
+# Print the full summary
 print(model.summary())
+
