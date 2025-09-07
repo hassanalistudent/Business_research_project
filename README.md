@@ -44,8 +44,8 @@ This project investigates the impact of **food quality** and **hygiene standards
 3. Run analysis scripts  
    - `code_for_ols_analysis.py` for regression output  
    - `code_for_heatmap.py` for correlation visualization
-
-✅ Conclusion:
+   
+## ✅ Conclusion:
 Both food quality and hygiene have a statistically significant and positive impact on student satisfaction.
 
 Food Quality is the strongest predictor, with a regression coefficient of 0.7608 and a highly significant p-value of 0.002.
