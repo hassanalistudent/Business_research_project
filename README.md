@@ -1,29 +1,59 @@
-# Business Research Project: Data Analysis and Visualization
+# 🧪 Business Research Project: University Cafeteria Satisfaction Analysis
 
-## 📊 Project Overview
-This project explores business-related survey data to uncover insights using statistical modeling and data visualization. The analysis includes an Ordinary Least Squares (OLS) regression to evaluate key predictors of satisfaction, and a correlation heatmap to examine relationships among variables.
+## 📌 Overview
+This project investigates the impact of **food quality** and **hygiene standards** on student satisfaction in university cafeterias. Using survey data from 115 students, we applied statistical modeling and data visualization to uncover actionable insights for campus service improvement.
 
-## 📁 Files Included
-- `report_data.xlsx`: Raw survey data used for analysis.
-- `ols_model.py`: Python script for building and summarizing the OLS regression model.
-- `correlation_heatmap.py`: Python script for generating a customized correlation heatmap using seaborn and matplotlib.
+## 🎯 Research Question
+**How do food quality and hygiene affect student satisfaction in university cafeterias?**
 
-## 🧪 Methodology
-- **Data Cleaning**: Handled missing values and prepared interaction terms.
-- **OLS Regression**: Modeled satisfaction as a function of food and hygiene quality over time.
-- **Visualization**: Created a heatmap to highlight variable correlations using a custom color palette.
+## 📊 Methodology
+- **Survey Design**: Structured questionnaire distributed via email and WhatsApp
+- **Sample Size**: 115 students across multiple years of study
+- **Analysis Techniques**:
+  - Descriptive statistics
+  - Chi-square tests
+  - OLS regression modeling
+  - Correlation heatmap visualization
 
-## 📌 Key Libraries
+## 🧠 Key Findings
+- **Food Quality**: Strong positive correlation with satisfaction (p-value ≈ 0.00035)
+- **Hygiene**: Statistically significant predictor of satisfaction (p-value = 0.000)
+- **Moderating Effect**: Year of study moderates hygiene’s impact, but not food quality
+- **Usage Frequency**: 60% of students use the cafeteria daily, reinforcing the need for consistent quality
+
+## 📁 Repository Contents
+| File | Description |
+|------|-------------|
+| `report_data.xlsx` | Raw survey data |
+| `code_for_ols_analysis.py` | OLS regression model using `statsmodels` |
+| `code_for_heatmap.py` | Correlation heatmap using `seaborn` |
+| `research report 3[1].docx` | Full research documentation |
+| `README.md` | Project overview and instructions |
+
+## 📈 Tools & Libraries
 - `pandas`
 - `statsmodels`
 - `seaborn`
 - `matplotlib`
 
-## 📈 Insights
-- Identified statistically significant predictors of satisfaction.
-- Visualized multicollinearity and variable relationships to guide interpretation.
-
 ## 🚀 How to Run
-1. Install dependencies:  
-   ```bash
-   pip install pandas statsmodels seaborn matplotlib
+1. Clone the repository  
+   `git clone https://github.com/hassanalistudent/Business_research_project.git`
+2. Install dependencies  
+   `pip install pandas statsmodels seaborn matplotlib`
+3. Run analysis scripts  
+   - `code_for_ols_analysis.py` for regression output  
+   - `code_for_heatmap.py` for correlation visualization
+
+## 📌 Recommendations
+- Improve food freshness and variety
+- Enforce stricter hygiene protocols
+- Streamline service during peak hours
+- Establish feedback channels for students
+
+## 📚 Citation
+If you use this project in your work, please cite:  
+**Ali, H. et al. (2024). Market Insights Challenge: Report on University Cafeteria Services. UET Lahore.**
+
+---
+
