@@ -52,7 +52,7 @@ This project investigates the impact of **food quality** and **hygiene standards
 - The OLS model explains 17.2% of the variation in satisfaction (R² = 0.172), confirming that these two factors are important but not the only drivers.
 - Year of study moderates the effect of hygiene, suggesting that senior students may be more sensitive to cleanliness standards.
 
-##🧠 Business Implication:
+## 🧠 Business Implication:
 
 - To improve student satisfaction, university cafeterias should prioritize:
 - Enhancing food freshness, taste, and variety
