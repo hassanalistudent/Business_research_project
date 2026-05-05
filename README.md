@@ -1,12 +1,12 @@
-# 🧪 Business Research Project: University Cafeteria Satisfaction Analysis
+#  Business Research Project: University Cafeteria Satisfaction Analysis
 
-## 📌 Overview
+##  Overview
 This project investigates the impact of **food quality** and **hygiene standards** on student satisfaction in university cafeterias. Using survey data from 115 students, we applied statistical modeling and data visualization to uncover actionable insights for campus service improvement.
 
-## 🎯 Research Question
+##  Research Question
 **How do food quality and hygiene affect student satisfaction in university cafeterias?**
 
-## 📊 Methodology
+##  Methodology
 - **Survey Design**: Structured questionnaire distributed via email and WhatsApp
 - **Sample Size**: 115 students across multiple years of study
 - **Analysis Techniques**:
@@ -15,13 +15,13 @@ This project investigates the impact of **food quality** and **hygiene standards
   - OLS regression modeling
   - Correlation heatmap visualization
 
-## 🧠 Key Findings
+##  Key Findings
 - **Food Quality**: Strong positive correlation with satisfaction (p-value ≈ 0.00035)
 - **Hygiene**: Statistically significant predictor of satisfaction (p-value = 0.000)
 - **Moderating Effect**: Year of study moderates hygiene’s impact, but not food quality
 - **Usage Frequency**: 60% of students use the cafeteria daily, reinforcing the need for consistent quality
 
-## 📁 Repository Contents
+##  Repository Contents
 | File | Description |
 |------|-------------|
 | `report_data.xlsx` | Raw survey data |
@@ -30,7 +30,7 @@ This project investigates the impact of **food quality** and **hygiene standards
 | `research report 3[1].docx` | Full research documentation |
 | `README.md` | Project overview and instructions |
 
-## 📈 Tools & Libraries
+##  Tools & Libraries
 - `pandas`
 - `statsmodels`
 - `seaborn`
@@ -45,27 +45,27 @@ This project investigates the impact of **food quality** and **hygiene standards
    - `code_for_ols_analysis.py` for regression output  
    - `code_for_heatmap.py` for correlation visualization
    
-## ✅ Conclusion:
+##  Conclusion:
 - Both food quality and hygiene have a statistically significant and positive impact on student satisfaction.
 - Food Quality is the strongest predictor, with a regression coefficient of 0.7608 and a highly significant p-value of 0.002.
 - Hygiene also contributes meaningfully, with a coefficient of 0.6213 and p-value of 0.015.
 - The OLS model explains 17.2% of the variation in satisfaction (R² = 0.172), confirming that these two factors are important but not the only drivers.
 - Year of study moderates the effect of hygiene, suggesting that senior students may be more sensitive to cleanliness standards.
 
-## 🧠 Business Implication:
+##  Business Implication:
 
 - To improve student satisfaction, university cafeterias should prioritize:
 - Enhancing food freshness, taste, and variety
 - Maintaining consistent hygiene protocols
 - Tailoring hygiene improvements to meet expectations across different student years
 
-## 📌 Recommendations
+##  Recommendations
 - Improve food freshness and variety
 - Enforce stricter hygiene protocols
 - Streamline service during peak hours
 - Establish feedback channels for students
 
-📚 References
+ References
 Misiran, M., Md Yusof, Z., Sapiri, H., & Abdullah, I. (2022). Students Satisfaction Towards Cafeteria in University Campus – A Case Study. Journal of Statistical Modelling & Analytics, 4(2). https://doi.org/10.22452/josma.vol4no2.2
 
 Wei, Y.-P. (2021). The Effect of Food Safety-Related Attributes on Customer Satisfaction of Ready-to-Eat Foods at Hypermarkets. Sustainability, 13(10554). https://doi.org/10.3390/su131910554
